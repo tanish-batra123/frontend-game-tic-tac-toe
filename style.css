@@ -35,7 +35,7 @@ body{
     box-shadow:0 0 1rem black;
     background-color:white;
     color: red;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 1000;
 
 }
@@ -75,3 +75,39 @@ body{
 .hide{
     display: none;
 }
+@media (max-width: 600px) {
+    .game {
+      height: 90vmin;
+      width: 90vmin;
+    }
+    .btn {
+      height: 28vmin;
+      width: 28vmin;
+      font-size: 40px;
+    }
+    .top-heading {
+      font-size: 40px;
+    }
+    #msg {
+      font-size: 6vmin;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .btn {
+      height: 30vmin;
+      width: 30vmin;
+      font-size: 50px;
+    }
+    .top-heading {
+      font-size: 30px;
+    }
+    #msg {
+      font-size: 5vmin;
+    }
+    .reset, .new-btn {
+      font-size: 12px;
+      padding: 0.5rem;
+    }
+  }
+  
